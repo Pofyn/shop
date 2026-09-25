@@ -1,19 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pofyn — Sentate bien, sentite mejor.</title>
+  <link rel="stylesheet" href="./style/styles.css" />
 </head>
 <body>
-    <header>
+  <!-- ══════════════════════════════════════
+       HEADER
+  ══════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#" class="site-logo-link">
+        <img src="./img/logopofyn.png" alt="Pofyn" class="logo">
+      </a>
+      <div class="site-logo">
+        <div class="logo-main">Pofyn</div>
+        <div class="logo-sub">almohada &amp; lumbar</div>
+      </div>
+    </div>
+
+    <!-- Menu principal -->
+    <nav class="nav-menu">
+      <div class="container">
+        <ul>
+          <li><a href="./index.html" class="active">Inicio</a></li>
+          <li><a href="./catalogo.html">Catálogo</a></li>
+          <li><a href="./nosotros.html">Nosotros</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <section class="hero">
+    <img
+      class="hero-image"
+      src="./img/banner.png"
+      alt="Almohadas ergonomicas Pofyn"
+    />
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Colección 2026</p>
+      <h1 class="hero-title">
+        Sentate bien,<br><em>sentite</em> mejor
+      </h1>
+      <p class="hero-desc">Almohadas para sillas</p>
+      <div class="hero-actions">
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       BENEFICIOS
+  ══════════════════════════════════════ -->
+  <section class="benefits">
+    <div class="container">
+      <div class="benefits-grid">
+
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <div>
+            <h4>Puntos de entrega</h4>
+            <p>Despachamos en la puerta de la escuela "Centro Educativo Arquidiocesano Espíritu Santo", consultar horario.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <div>
+            <h4>Hecho con amor</h4>
+            <p>Cada Pofyn está hecho con mucho amor y esfuerzo para brindarles comodidad.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <h4>Compra segura</h4>
+            <p>Se acepta transferencia y/o efectivo. La seña es del 30%.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CATEGORÍAS
+  ══════════════════════════════════════ -->
+  <section class="categories">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Nuestras areas <em>trabajando</em></h2>
+      </div>
+
+      <div class="cat-grid">
+        <div class="cat-card">
+          <img src="./img/rrhh.PNG" alt="Cerámica" />
+          <div class="cat-label">
+            <h3>FINANZAS</h3>
+            <span>Administrando el capital y el presupuesto.</span>
+          </div>
+        </div>
+
+        <div class="cat-card">
+          <img src="./img/general.JPG" alt="direccion general" />
+          <div class="cat-label">
+            <h3>RRHH</h3>
+            <span>Potenciando el trabajo en equipo y las personas.</span>
+          </div>
+        </div>
+
+        <div class="cat-card">
+          <img src="./img/mark.JPG" alt="marketing" />
+          <div class="cat-label">
+            <h3>MARKETING</h3>
+            <span>Creando la marca y conectando con la gente.</span>
+          </div>
+        </div>
+
+        <div class="cat-card">
+          <img src="./img/producto.PNG" alt="Maceteros" />
+          <div class="cat-label">
+            <h3>PRODUCCIÓN</h3>
+            <span>Pofy´ns empaquetados</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       BANNER INTERMEDIO
+  ══════════════════════════════════════ -->
+  <section class="container">
+    <div class="mid-banner">
+      <div class="mid-banner-text">
+        <p class="eyebrow">Colección limitada</p>
+        <h2>Usa Pofyn<br><em>tu espalda</em><br>lo va agradecer</h2>
+        <p>
+          Cada Pofyn esta elaborando a mano por nosotros mismos, dejando todo en cada detalle. Asi, garantizamos a nuestros clientes la mayor comodidad.
+        </p>
+      </div>
+      <div class="mid-banner-image">
+        <img
+          src="./img/fotobanner2.PNG"
+          alt="Artesana trabajando cerámica"
+        />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="logo-footer">Pofyn</div>
+          <div class="logo-footer-sub">Comodidad</div>
+          <p> Nuestro equipo consite en alumnos de 5to año del colegios CEAES, CABA, de la mano de Junior Archievenment.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.tiktok.com/@pofyn.shop?is_from_webapp=1&sender_device=pc" aria-label="Tik Tok">t</a>
+            <a href="https://www.instagram.com/pofyn.shop/" aria-label="Instagram">ig</a>
+            <a href="https://wa.me/5491172375045?text=Hola,%20quisiera%20más%20información" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">w</a>
+          </div>
+        </div>
+
         
-    </header>
-    <main>
+        <div class="footer-col">
+          <h5>Contacto</h5>
+          <ul>
+            <li><a href="https://wa.me/5491112345678" target="_blank">WhatsApp</a></li>
+            <li><a href="mailto:pofyn.emprendimiento@gmail.com">Enviar Correo</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+          </ul>
+        </div>
 
-    </main>
-    <footer>
+      </div>
 
-    </footer>
+      <div class="footer-bottom">
+        <span>© 2026 Pofyn. Todos los derechos reservados.</span>
+        <span>Hecho con ♥ en Argentina</span>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
